@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | Dawson Thompson - Home</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=960 height=600></canvas>
     <script src="Build/9bc3f1f98d8a60f4a893dfd82ec5ca3c.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
@@ -17,7 +17,7 @@
         companyName: "DefaultCompany",
         productName: "Dawson Thompson - Home",
         productVersion: "0.1",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
